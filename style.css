@@ -5,11 +5,12 @@
     url('abcd.jpg');
     background-repeat: no-repeat,;
     background-position: right center;
-    background-size: 100%; 
+    background-size: cover; 
     /* ---- */
     display:block;
     left:100;
     top: 100;
+    width:100%;
     max-width: 100%;
     height:auto;
     color: #000;
