@@ -21,7 +21,7 @@ h1{
     font-family: 'Open sans';
     font-weight: bold;
     font-size:400%;
-    padding: 10% 10% 1% 10%;
+    padding: 10% 10.5% 0% 10%;
     color: white;
     letter-spacing:2px;
     line-height: 1.2;
@@ -145,8 +145,24 @@ p{
     color: #fff;
     margin-bottom: 0;
 }
+#con{
+    font-size: 350%;
+    font-weight: bold;
+}
 @media (max-width:629px) {
-    img#optionalstuff {
-      display: none;
+    h1#header{
+        padding: 10% 10% 1% 4%;
+    }
+    img#optionalstuff{
+       display: none;
+    }
+    div.bn{
+        padding: 3% 15%; 
+    }
+    p.description{
+        padding: 0 10% 5% 10%;
+    }
+    h1#con{
+        padding: 10% 10% 1% 4%;
     }
 }
