@@ -166,4 +166,11 @@ p{
     h1#con{
         padding: 10% 10% 1% 4%;
     }
+     img.review{
+        width: 25%;
+        padding: 2% 1%;
+    }
+    h2{
+        font-size:1.4rem;
+    }
 }
