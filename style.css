@@ -185,7 +185,9 @@ pre{
   }
 @media (max-width:629px) {
     h1#header{
-        padding: 10% 10% 1% 4%;
+        font-size:250%;
+        padding: 40% 10% 10% 0%;
+        text-align: center;
     }
     img#optionalstuff{
        display: none;
