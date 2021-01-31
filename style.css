@@ -185,7 +185,7 @@ pre{
   }
 @media (max-width:629px) {
     h1#header{
-        font-size:270%;
+        font-size:300%;
         padding: 30% 10% 10% 0%;
         text-align: center;
     }
@@ -196,7 +196,7 @@ pre{
         padding: 3% 15%; 
     }
     p.description{
-        padding: 0 10% 5% 10%;
+        padding: 5% 10% 5% 10%;
     }
     h1#con{
         padding: 10% 10% 1% 4%;
