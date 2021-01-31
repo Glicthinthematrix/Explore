@@ -185,8 +185,8 @@ pre{
   }
 @media (max-width:629px) {
     h1#header{
-        font-size:250%;
-        padding: 35% 10% 10% 0%;
+        font-size:270%;
+        padding: 30% 10% 10% 0%;
         text-align: center;
     }
     img#optionalstuff{
