@@ -124,11 +124,11 @@ h5{
 }
 #contact{
     background-image:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
     url('ocean.jpg');
     background-repeat: no-repeat, repeat;
     background-position: right center;
-    background-size: 100%;  
+    background-size: cover;  
 }
 .con{
     width: 50%;
@@ -145,14 +145,44 @@ h5{
     color: #fff;
     text-align: center;
 }
-p{
+pre{
     color: #fff;
     margin-bottom: 0;
+    padding:20px;
 }
 #con{
     font-size: 350%;
     font-weight: bold;
 }
+#btn3{
+    border-radius:50px;
+}
+.contactcard{
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.3);
+    width:25%;
+    align-content: center;
+    padding: 100%,100%;
+    display: block;
+    position: relative;
+    left:38%;
+}
+.contact-content{
+    padding: 60px,80px,60px,80px;
+    /* margin-top: 40px; */
+    text-align: center;  
+}
+.too{
+    margin:5px;
+    color:rgba(0, 0, 0, 0.6);
+}
+.tee{
+    margin:10px;
+}
+.download{
+    text-decoration: none;
+    color: white;
+  }
 @media (max-width:629px) {
     h1#header{
         padding: 10% 10% 1% 4%;
@@ -175,5 +205,13 @@ p{
     }
     h2{
         font-size:1.4rem;
+    }
+    div.contactcard{
+        width: 90%;
+        left:5%;
+    }
+    img.card-img-top{
+        width:45%;
+        margin:20px auto;
     }
 }
